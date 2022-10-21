@@ -1,0 +1,109 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@font-face {
+    font-family: 'rose';
+    src: url('fonts/October\ Rose\ -\ Personal\ Use.otf') format('opentype');
+    font-weight: normal;
+}
+    :root {
+        --corPrt: #212020;
+        --corwt: white;
+        --corVi: #932D30;
+    }
+    * {
+        padding: 0px;
+    }
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0;
+        background-color: var(--corVi);
+    }
+    header {
+        background-color: var(--corPrt);
+        border-radius: 0px 0px 10px 10px;
+        box-shadow: 10px 5px 10px rgba(0, 0, 0, 0.356); 
+    }
+    header > img {
+        margin-bottom: -50px;
+        margin-left: 30px;
+        margin-top: 20px;
+        width: 50px;
+        
+    }
+    header > h1 {
+        font-family: 'rose';
+        color: white;
+        font-weight: normal;
+        font-size: 4em;
+        text-align: right;
+        line-height: 33px;
+        padding-top: -40px;
+        padding-bottom: 10px;
+        padding-right: 15px;
+        margin: 0;
+    }
+        #title {
+        background-color: var(--corPrt);
+        margin-bottom: 50px;
+        width: 500px;
+        margin: 0 auto;
+        font-family: 'Dancing Script', cursive;
+        padding-bottom: 5px;
+        margin-bottom: 30px;
+        border-radius: 0px 0px 10px 10px;
+        box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.295) ;
+
+        }
+       #title > h1 {
+        color: white;
+        margin: auto;
+        background-color: var(--corVi);
+        width: 300px;
+        text-align: center;
+        padding: 5px;
+        border-radius: 0px 0px 10px 10px;
+       } 
+    #cont {
+        display: grid;
+        grid-template-columns: 50% auto;   
+    }
+    #leftbar, #rightbar {
+        display: flex;
+        flex-direction: column;
+        row-gap: 40px;    
+    }
+    body p {
+        line-height: 1.7;
+    }
+    .leftContent {
+        background-color: white;
+        padding: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
+        border-radius: 10px;
+        box-shadow: 10px 0px 10px rgba(0, 0, 0, 0.295);
+        margin-bottom: 20px;
+    }
+    .rightContent {
+        background-color: white;
+        padding: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
+        border-radius: 10px;
+        box-shadow: 10px 0px 10px rgba(0, 0, 0, 0.295);
+        margin-bottom: 20px;
+    }
+    #finalM{
+        background-color: var(--corPrt);
+        margin: 0px;
+        padding: 0;
+    }
+    footer h1 {
+        color: white;
+        padding: 0;
+        margin: 0;
+        background-color: var(--corVi);
+        font-family: 'rose';
+        font-size: 3.5em;
+        font-weight: normal;
+    }

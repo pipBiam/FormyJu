@@ -1,0 +1,147 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'rose';
+    src: url('fonts/October\ Rose\ -\ Personal\ Use.otf') format('opentype');
+    font-weight: normal;
+}
+
+
+ /* #735A72 roxo
+    #8D8B99 cinza
+    #DB8591 rosa
+    ##212020 preto claro??
+    ##932D30 vinho]white
+*/
+* {
+    margin: 0;
+    padding: 0;
+}
+:root {
+    --corPrt: #212020;
+    --corwt: white;
+    --corVi: #932D30;   
+}
+body {
+    background-color:var(--corVi);
+}
+header {
+    background-color: var(--corPrt);
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 10px 5px 10px rgba(0, 0, 0, 0.356);
+    
+    
+}
+header > img {
+    margin-bottom: -50px;
+    margin-left: 30px;
+    margin-top: 20px;
+    width: 50px;
+    
+}
+header > h1 {
+    font-family: 'rose';
+    color: white;
+    font-weight: normal;
+    font-size: clamp(2em, 4em + 20vw, 4.5em);
+    text-align: right;
+    line-height: 33px;
+    padding-top: -30px;
+    padding-bottom: 10px;
+    padding-right: 15px;
+}
+article h1 {
+    font-family: 'rose';
+    font-size: 5em;
+    color: var(--corVi);
+    font-weight: lighter;
+    text-align: right;
+}
+main {
+    width: 80vw;
+    margin: auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 0 0 10px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 30px;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.384);
+   
+}
+main p {
+    line-height: 1.7em;
+    text-indent: 20px;
+}
+main abbr {
+    text-decoration: none;
+    font-weight: bold;
+}
+#fakelinkA {
+    font-weight: bold;
+}
+#fakelinkA::after {
+    content: '\1F517';
+}
+button {
+    width: 200px;
+    height: 75px;
+    border-radius: 40px; 
+    background-image: linear-gradient(to right, rgb(4, 104, 4) , rgb(12, 197, 12)20% );
+    border-color: transparent;
+    background-attachment: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: white;  
+    transition-duration: 10s; 
+}
+#buttonD {
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+    
+}
+button:hover {
+    background-image: linear-gradient(to right, purple, rgb(221, 12, 221));
+}
+footer {
+    background-color: var(--corPrt);
+    text-align: center;
+    margin-top: 0;
+    
+}
+footer  p {
+    color: white;
+    font-family: 'rose';
+    font-weight: lighter;
+    font-size: 2.7em;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+nav {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.7em;
+    margin: auto;
+    background-color: #212020;
+    width: 290px;
+    padding: 5px;
+    border-radius: 6px 6px 0 0;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    transition-duration: 1s;
+}
+nav a:hover {
+    background-image: linear-gradient(to top, white 55%, transparent );
+    color: black;
+    padding: 15px 5px 5px ;
+    border-radius: 0 0 2px 2px;
+}
+
+main img {
+    display: block;
+    margin: auto;
+}
