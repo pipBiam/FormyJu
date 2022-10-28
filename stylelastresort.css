@@ -5,49 +5,13 @@
     src: url('fonts/October\ Rose\ -\ Personal\ Use.otf') format('opentype');
     font-weight: normal;
 }
-    :root {
-        --corPrt: #212020;
-        --corwt: white;
-        --corVi: #932D30;
-    }
-    * {
-        padding: 0px;
-    }
-    body {
-        font-family: Arial, Helvetica, sans-serif;
-        margin: 0;
-        background-color: var(--corVi);
-    }
-    header {
-        background-color: var(--corPrt);
-        border-radius: 0px 0px 10px 10px;
-        box-shadow: 10px 5px 10px rgba(0, 0, 0, 0.356); 
-    }
-    header > img {
-        margin-bottom: -50px;
-        margin-left: 30px;
-        margin-top: 20px;
-        width: 50px;
-        
-    }
-    header > h1 {
-        font-family: 'rose';
-        color: white;
-        font-weight: normal;
-        font-size: 4em;
-        text-align: right;
-        line-height: 33px;
-        padding-top: -40px;
-        padding-bottom: 10px;
-        padding-right: 15px;
-        margin: 0;
-    }
         #title {
         background-color: var(--corPrt);
         margin-bottom: 50px;
-        width: 500px;
+        max-width: 400vw;
         margin: 0 auto;
-        font-family: 'Dancing Script', cursive;
+        font-family: 'dancing Script', cursive;
+        font-size: clamp(1.0em, 4em + 4vw, 1.0em);
         padding-bottom: 5px;
         margin-bottom: 30px;
         border-radius: 0px 0px 10px 10px;
