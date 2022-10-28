@@ -51,7 +51,7 @@ header > h1 {
 }
 article h1 {
     font-family: 'rose';
-    font-size: 5em;
+    font-size: clamp(2em, 4em + 20vw, 5em);
     color: var(--corVi);
     font-weight: lighter;
     text-align: right;
