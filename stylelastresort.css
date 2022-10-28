@@ -8,7 +8,7 @@
         #title {
         background-color: var(--corPrt);
         margin-bottom: 50px;
-        max-width: 400vw;
+        max-width: 80vw;
         margin: 0 auto;
         font-family: 'dancing Script', cursive;
         font-size: clamp(1.0em, 4em + 4vw, 1.0em);
